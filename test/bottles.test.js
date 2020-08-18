@@ -28,7 +28,7 @@ describe('Bottles', () => {
     expect(new Bottles().verse(2)).toBe(expected);
   });
 
-  test.skip('verse 1', () => {
+  test('verse 1', () => {
     const expected =
       '1 bottle of beer on the wall, ' +
       '1 bottle of beer.\n' +
@@ -37,7 +37,7 @@ describe('Bottles', () => {
     expect(new Bottles().verse(1)).toBe(expected);
   });
 
-  test.skip('verse 0', () => {
+  test('verse 0', () => {
     const expected =
       'No more bottles of beer on the wall, ' +
       'no more bottles of beer.\n' +
@@ -46,7 +46,7 @@ describe('Bottles', () => {
     expect(new Bottles().verse(0)).toBe(expected);
   });
 
-  test.skip('a couple verses', () => {
+  test('a couple verses', () => {
     const expected =
       '99 bottles of beer on the wall, ' +
       '99 bottles of beer.\n' +
@@ -60,7 +60,7 @@ describe('Bottles', () => {
     expect(new Bottles().verses(99, 98)).toBe(expected);
   });
 
-  test.skip('a few verses', () => {
+  test('a few verses', () => {
     const expected =
       '2 bottles of beer on the wall, ' +
       '2 bottles of beer.\n' +
